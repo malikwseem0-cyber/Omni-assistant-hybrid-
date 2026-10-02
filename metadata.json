@@ -1,0 +1,6 @@
+{
+  "name": "OmniAssist AI",
+  "description": "Advanced AI phone assistant with system voice interaction, accessibility macro automation, speaker recognition, and device controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

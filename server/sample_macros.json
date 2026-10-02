@@ -1,0 +1,28 @@
+[
+  {
+    "title": "YouTube Search Video",
+    "triggerPhrase": "open youtube and search",
+    "steps": [
+      { "actionType": "LAUNCH_APP", "target": "com.google.android.youtube", "timeoutMs": 2000 },
+      { "actionType": "WAIT_FOR_SCREEN_TEXT", "target": "Search", "timeoutMs": 3000 },
+      { "actionType": "TAP_TEXT", "target": "Search", "timeoutMs": 1000 },
+      { "actionType": "INPUT_TEXT", "target": "Search", "value": "AI Android Assistant Demo", "timeoutMs": 1000 }
+    ]
+  },
+  {
+    "title": "Clean Temp Files & Diagnostics",
+    "triggerPhrase": "run system cleanup",
+    "steps": [
+      { "actionType": "SHELL_CMD", "target": "df -h", "timeoutMs": 2000 },
+      { "actionType": "SHELL_CMD", "target": "uptime", "timeoutMs": 2000 }
+    ]
+  },
+  {
+    "title": "Quick WhatsApp Greeting",
+    "triggerPhrase": "send whatsapp greeting",
+    "steps": [
+      { "actionType": "LAUNCH_APP", "target": "com.whatsapp", "timeoutMs": 2000 },
+      { "actionType": "WAIT_FOR_SCREEN_TEXT", "target": "Chats", "timeoutMs": 3000 }
+    ]
+  }
+]

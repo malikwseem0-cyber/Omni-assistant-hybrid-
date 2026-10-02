@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">OmniAssist</string>
+    <string name="assistant_ready">OmniAssist is ready. Say \\\"Hey Omni\\\" or tap the orb.</string>
+    <string name="accessibility_service_label">OmniAssist Macro Engine</string>
+    <string name="accessibility_service_description">Automates UI clicks, text input, and screen verification for user-configured voice macros.</string>
+    <string name="voice_interaction_service_label">OmniAssist Voice Service</string>
+    <string name="notification_listener_label">OmniAssist Notification Listener</string>
+    <string name="live_wallpaper_label">OmniAssist AI Hologram Wallpaper</string>
+</resources>
